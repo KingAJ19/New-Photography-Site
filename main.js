@@ -50,11 +50,11 @@
 	
 	//Travel portfolio page
 	
-	$(".travel").on('click', function () {
-		$("body").addClass("travel-on");
+	$(".drawings").on('click', function () {
+		$("body").addClass("drawings-on");
 	});
-	$(".travel-close").on('click', function () {
-		$("body").removeClass("travel-on");
+	$(".drawings-close").on('click', function () {
+		$("body").removeClass("drawings-on");
 	});
 
 	
