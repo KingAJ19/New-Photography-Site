@@ -48,7 +48,7 @@
 	});
 
 	
-	//Travel portfolio page
+	//Travel page
 	
 	$(".drawings").on('click', function () {
 		$("body").addClass("drawings-on");
@@ -58,7 +58,7 @@
 	});
 
 	
-	//Wildlife portfolio page
+	//Wildlife page
 	
 	$(".wildlife").on('click', function () {
 		$("body").addClass("wildlife-on");
@@ -68,7 +68,7 @@
 	});
 
 	
-	//Nature portfolio page
+	//Nature page
 	
 	$(".nature").on('click', function () {
 		$("body").addClass("nature-on");
