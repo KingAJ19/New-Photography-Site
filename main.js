@@ -48,7 +48,7 @@
 	});
 
 	
-	//Travel page
+	//Drawings page
 	
 	$(".drawings").on('click', function () {
 		$("body").addClass("drawings-on");
@@ -58,17 +58,17 @@
 	});
 
 	
-	//Wildlife page
+	//Kitty page
 	
-	$(".wildlife").on('click', function () {
-		$("body").addClass("wildlife-on");
+	$(".kitty").on('click', function () {
+		$("body").addClass("kitty-on");
 	});
-	$(".wildlife-close").on('click', function () {
-		$("body").removeClass("wildlife-on");
+	$(".kitty-close").on('click', function () {
+		$("body").removeClass("kitty-on");
 	});
 
 	
-	//Nature page
+	//Junior page
 	
 	$(".nature").on('click', function () {
 		$("body").addClass("nature-on");
