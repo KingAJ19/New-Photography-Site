@@ -174,7 +174,7 @@ body.kitty-on .hero-section {
 	-webkit-transition-delay: 0ms;
 	transition-delay: 0ms;
 }
-body.nature-on .hero-section {
+body.junior-on .hero-section {
 	transform: rotateX(-10deg);
 	-webkit-transition-delay: 0ms;
 	transition-delay: 0ms;
@@ -387,7 +387,7 @@ body.contact-on .contact-section {
 
 .drawings-section,
 .kitty-section,
-.nature-section {
+.junior-section {
     position: fixed;
 	top: 100%;
 	left: 0;
@@ -404,7 +404,7 @@ body.contact-on .contact-section {
 }
 .drawings-close,
 .kitty-close,
-.nature-close {
+.junior-close {
     position: absolute;
 	top: 20px;
 	right: 20px;
@@ -423,7 +423,7 @@ body.contact-on .contact-section {
 }
 .drawings-close:hover,
 .kitty-close:hover,
-.nature-close:hover {
+.junior-close:hover {
     transform: rotate(90deg);
 }
 body.drawings-on .drawings-section {
@@ -436,14 +436,14 @@ body.kitty-on .kitty-section {
 	-webkit-transition-delay: 400ms;
 	transition-delay: 400ms;
 }
-body.nature-on .nature-section {
+body.junior-on .junior-section {
 	top: 0;
 	-webkit-transition-delay: 400ms;
 	transition-delay: 400ms;
 }
 .drawings-section img,
 .kitty-section img,
-.nature-section img {
+.junior-section img {
 	margin-top: 30px;
     width: 100%;
 	height: auto;
@@ -453,7 +453,7 @@ body.nature-on .nature-section {
 }
 .drawings-section h3,
 .kitty-section h3,
-.nature-section h3 {
+.junior-section h3 {
 	font-size: 44px;
 	line-height: 1.3;
 	font-weight: 700;
@@ -462,14 +462,14 @@ body.nature-on .nature-section {
 }
 .drawings-section p,
 .kitty-section p,
-.nature-section p {
+.junior-section p {
 	font-size: 14px;
 	line-height: 1.7;
 	letter-spacing: 1px;
 }
 .drawings-section p span,
 .kitty-section p span,
-.nature-section p span {
+.junior-section p span {
 	font-size: 20px;
 	line-height: 1.3;
 	font-weight: 700;
