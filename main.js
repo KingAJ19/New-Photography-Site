@@ -77,5 +77,23 @@
 		$("body").removeClass("junior-on");
 	});
 
+	//Grey Kitty page
+	
+	$(".grey").on('click', function () {
+		$("body").addClass("grey-on");
+	});
+	$(".grey-close").on('click', function () {
+		$("body").removeClass("grey-on");
+	});
+
+	//Blackie page
+	
+	$(".blackie").on('click', function () {
+		$("body").addClass("blackie-on");
+	});
+	$(".blackie-close").on('click', function () {
+		$("body").removeClass("blackie-on");
+	});
+
 	
 })(jQuery); 
