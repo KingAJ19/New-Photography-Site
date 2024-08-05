@@ -95,5 +95,14 @@
 		$("body").removeClass("blackie-on");
 	});
 
+	//Anele page
+	
+	$(".me").on('click', function () {
+		$("body").addClass("me-on");
+	});
+	$(".me-close").on('click', function () {
+		$("body").removeClass("me-on");
+	});
+
 	
 })(jQuery); 

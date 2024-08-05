@@ -386,6 +386,7 @@ body.contact-on .contact-section {
 }
 
 .drawings-section,
+.me-section,
 .grey-section,
 .blackie-section,
 .kitty-section,
@@ -405,6 +406,7 @@ body.contact-on .contact-section {
 	z-index: 10;
 }
 .drawings-close,
+.me-close,
 .grey-close,
 .blackie-close,
 .kitty-close,
@@ -426,6 +428,7 @@ body.contact-on .contact-section {
 	z-index: 11;
 }
 .drawings-close:hover,
+.me-close:hover,
 .grey-close:hover,
 .blackie-close:hover,
 .kitty-close:hover,
@@ -457,7 +460,13 @@ body.junior-on .junior-section {
 	-webkit-transition-delay: 400ms;
 	transition-delay: 400ms;
 }
+body.me-on .me-section {
+	top: 0;
+	-webkit-transition-delay: 400ms;
+	transition-delay: 400ms;
+}
 .drawings-section img,
+.me-section img,
 .grey-section img,
 .blackie-section img,
 .kitty-section img,
@@ -470,6 +479,7 @@ body.junior-on .junior-section {
 	box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 .drawings-section h3,
+.me-section h3,
 .grey-section h3,
 .blackie-section h3,
 .kitty-section h3,
@@ -481,6 +491,7 @@ body.junior-on .junior-section {
 	color: #fff;
 }
 .drawings-section p,
+.me-section p,
 .grey-section p,
 .blackie-section p,
 .kitty-section p,
@@ -490,6 +501,7 @@ body.junior-on .junior-section {
 	letter-spacing: 1px;
 }
 .drawings-section p span,
+.me-section p span,
 .grey-section p span,
 .blackie-section p span,
 .kitty-section p span,
