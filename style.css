@@ -390,7 +390,8 @@ body.contact-on .contact-section {
 .grey-section,
 .blackie-section,
 .kitty-section,
-.junior-section {
+.junior-section,
+.lmk-section {
     position: fixed;
 	top: 100%;
 	left: 0;
@@ -410,7 +411,8 @@ body.contact-on .contact-section {
 .grey-close,
 .blackie-close,
 .kitty-close,
-.junior-close {
+.junior-close,
+.lmk-close {
     position: absolute;
 	top: 20px;
 	right: 20px;
@@ -432,7 +434,8 @@ body.contact-on .contact-section {
 .grey-close:hover,
 .blackie-close:hover,
 .kitty-close:hover,
-.junior-close:hover {
+.junior-close:hover,
+.lmk-close:hover {
     transform: rotate(90deg);
 }
 body.drawings-on .drawings-section {
@@ -465,12 +468,18 @@ body.me-on .me-section {
 	-webkit-transition-delay: 400ms;
 	transition-delay: 400ms;
 }
+body.lmk-on .lmk-section {
+	top: 0;
+	-webkit-transition-delay: 400ms;
+	transition-delay: 400ms;
+}
 .drawings-section img,
 .me-section img,
 .grey-section img,
 .blackie-section img,
 .kitty-section img,
-.junior-section img {
+.junior-section img,
+.lmk-section img {
 	margin-top: 30px;
     width: 100%;
 	height: auto;
@@ -483,7 +492,8 @@ body.me-on .me-section {
 .grey-section h3,
 .blackie-section h3,
 .kitty-section h3,
-.junior-section h3 {
+.junior-section h3,
+.lmk-section h3 {
 	font-size: 44px;
 	line-height: 1.3;
 	font-weight: 700;
@@ -495,7 +505,8 @@ body.me-on .me-section {
 .grey-section p,
 .blackie-section p,
 .kitty-section p,
-.junior-section p {
+.junior-section p,
+.lmk-section p {
 	font-size: 14px;
 	line-height: 1.7;
 	letter-spacing: 1px;
@@ -505,7 +516,8 @@ body.me-on .me-section {
 .grey-section p span,
 .blackie-section p span,
 .kitty-section p span,
-.junior-section p span {
+.junior-section p span,
+.lmk-section p span {
 	font-size: 20px;
 	line-height: 1.3;
 	font-weight: 700;

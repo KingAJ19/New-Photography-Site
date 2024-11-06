@@ -104,5 +104,14 @@
 		$("body").removeClass("me-on");
 	});
 
+	//LMK FC page
+	
+	$(".lmk").on('click', function () {
+		$("body").addClass("lmk-on");
+	});
+	$(".lmk-close").on('click', function () {
+		$("body").removeClass("lmk-on");
+	});
+
 	
 })(jQuery); 
